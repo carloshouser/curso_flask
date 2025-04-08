@@ -1,7 +1,23 @@
-Teste 5: 08/04/2025 11:14h
-Teste 4: 08/04/2025 11:09h
 #git clone https://github.com/carloshouser/curso_flask.git
-Teste 3: 08/04/2025 10:44h
-Teste 2: 08/04/2025 10:24h
-Teste 1: 08/04/2025 10:09h
 
+Próxima: introdução ao Bootstrap
+https://getbootstrap.com/
+https://getbootstrap.com/docs/5.3/content/tables/#overview
+https://getbootstrap.com/docs/5.3/utilities/background/#background-color
+https://getbootstrap.com/docs/5.3/layout/grid/#example
+
+# pip install Flask
+# pip install Flask-SqlAlchemy
+# pip install Flask-Migrate
+# Criar o banco de dados, digite no terminal: Flask db init
+
+*********
+Roteiro
+*********
+1- Criar uma pasta com o nome do programa 
+2- Criar nesta pasta o arquivo init
+3- No arquivo init colocar as configurações de app e de banco de dados
+   - No filal do arquivo init, imortar os routes
+4- Todos os arquivos .py colocar dentro desta pasta inclusive a pasta templates 
+5- Do lado de fora, colocar um único arquivo, o main.py. 
+   A única coisa que ele faz é rodar o seu programa
