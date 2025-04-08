@@ -1,4 +1,6 @@
 #git clone https://github.com/carloshouser/curso_flask.git
+# git fetch # Busca atualizações.
+#   - Sincronizar no botão Sincronização no VSCode
 
 Próxima: introdução ao Bootstrap
 https://getbootstrap.com/
