@@ -1,4 +1,6 @@
-Teste 2: 08/04/2025 10:44h
+Teste 2: 08/04/2025 11:09h
+#git clone https://github.com/carloshouser/curso_flask.git
+Teste 3: 08/04/2025 10:44h
 Teste 2: 08/04/2025 10:24h
 Teste 1: 08/04/2025 10:09h
 
