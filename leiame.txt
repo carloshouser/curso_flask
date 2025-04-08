@@ -11,13 +11,15 @@ https://getbootstrap.com/docs/5.3/layout/grid/#example
 # pip install Flask-Migrate
 # Criar o banco de dados, digite no terminal: Flask db init
 
-*********
-Roteiro
-*********
+******************
+      Roteiro
+******************
 1- Criar uma pasta com o nome do programa 
-2- Criar nesta pasta o arquivo init
-3- No arquivo init colocar as configurações de app e de banco de dados
-   - No filal do arquivo init, imortar os routes
+2- Criar nesta pasta o arquivo __init__.py
+3- No arquivo __init__.py colocar as configurações de app e de banco de dados
+   - No final do arquivo __init__.py, imortar os routes
 4- Todos os arquivos .py colocar dentro desta pasta inclusive a pasta templates 
-5- Do lado de fora, colocar um único arquivo, o main.py. 
-   A única coisa que ele faz é rodar o seu programa
+5- Do lado de fora, colocar um único arquivo, o main.py e logicamente a vm. 
+   A única coisa que o main.py faz é rodar o seu programa
+
+Observação: a vm fica para fora da pasta, junto com o main.py
