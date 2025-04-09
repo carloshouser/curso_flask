@@ -1,5 +1,7 @@
-from flask import render_template
+from flask import render_template, url_for
 from meusite import app
+
+lista_usuarios = ['Marcio', 'Daniel', 'Alessandro', 'Carlos', 'Luíz']
 
 @app.route('/')
 def homepage():
@@ -8,4 +10,8 @@ def homepage():
 @app.route('/contatos')
 def contatos():
     return render_template('contato.html')
+
+@app.route('/usuarios')
+def usuarios():
+    return render_template('usuarios.html', lista_usuarios = lista_usuarios)
 
