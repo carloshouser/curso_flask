@@ -7,6 +7,14 @@ https://getbootstrap.com/
 https://getbootstrap.com/docs/5.3/content/tables/#overview
 https://getbootstrap.com/docs/5.3/utilities/background/#background-color
 https://getbootstrap.com/docs/5.3/layout/grid/#example
+https://dashboard.render.com/web/srv-cvrgtlbe5dus7388soe0/settings
+
+  - https://www.youtube.com/watch?v=IPeACm7Se9w&list=PL5QK1VkAg_cOC4zQc5Yg1hHDaRfp5LkKs   
+  - python.exe -m pip install --upgrade pip
+  - pip install gunicorn
+  - pip freeze > requirements.txt 
+  - No render.com, New/Webservice
+  - pip install -r requirements.txt
 
 # pip install Flask
 # pip install Flask-SqlAlchemy
