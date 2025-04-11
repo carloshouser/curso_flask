@@ -1,5 +1,6 @@
 from flask import render_template, url_for
 from meusite import app
+from meusite.forms import FormCriarConta, FormLogin
 
 lista_usuarios = ['Marcio', 'Daniel', 'Alessandro', 'Carlos', 'Luíz']
 
@@ -17,9 +18,11 @@ def usuarios():
 
 @app.route('/login')
 def login():
-    return render_template('login.html')
+    form_login = FormLogin()
+    return render_template('login.html', form_login=form_login)
 
 @app.route('/conta')
 def conta():
-    return render_template('conta.html')
+    form_criarconta = FormCriarConta()
+    return render_template('conta.html', form_criarconta=form_criarconta)
 
