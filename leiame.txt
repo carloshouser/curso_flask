@@ -19,6 +19,7 @@ https://dashboard.render.com/web/srv-cvrgtlbe5dus7388soe0/settings
 # pip install Flask
 # pip install Flask-SqlAlchemy
 # pip install Flask-Migrate
+# pip install flask-wtf # para trabalhar com Formulários
 # Criar o banco de dados, digite no terminal: Flask db init
 
 ******************
