@@ -11,11 +11,11 @@ class FormCriarConta(FlaskForm):
                           DataRequired(), Length(min=6, max=20)])
     confirmacao = PasswordField('Confirmação da senha', validators=[
                                 DataRequired(), EqualTo('senha', message='As senhas devem ser iguais')])
-    botao_submit = SubmitField('Criar conta')
+    botao_submit_criarconta = SubmitField('Criar conta')
 
 
 class FormLogin(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
     senha = PasswordField('Senha', validators=[
                           DataRequired(), Length(min=6, max=20)])
-    botao_submit = SubmitField('Fazer Login')
+    botao_submit_login = SubmitField('Fazer Login')
