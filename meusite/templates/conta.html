@@ -5,7 +5,8 @@
         <h1>Crie sua conta para continuar</h1>
         <hr>
         
-        <form method="POST" action="" class="border p-4 mt2">
+        <form method="POST" action="" class="border p-4 mt-2">
+            {{ form_criarconta.csrf_token }}
             <legend>Página de Criar Conta</legend>
             <fieldset>
                 <div class="form-group">

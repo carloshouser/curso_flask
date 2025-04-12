@@ -10,7 +10,7 @@ class FormCriarConta(FlaskForm):
     senha = PasswordField('Senha', validators=[
                           DataRequired(), Length(min=6, max=20)])
     confirmacao_senha = PasswordField('Confirmação da senha', validators=[
-                                DataRequired(), EqualTo('senha', message='As senhas devem ser iguais')])
+        DataRequired(), EqualTo('senha', message='As senhas devem ser iguais')])
     botao_submit_criarconta = SubmitField('Criar conta')
 
 

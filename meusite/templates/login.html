@@ -6,7 +6,8 @@
         <hr>
         <div class="row">
             <div class="col">
-                <form method="POST" action="" class="border p-4 mt2">
+                <form method="POST" action="" class="border p-4 mt-2">
+                    {{ form_login.csrf_token }}
                     <legend>Login </legend>
                     <fieldset>
                         <div class="form-group">
