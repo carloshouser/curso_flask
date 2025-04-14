@@ -9,24 +9,25 @@ https://getbootstrap.com/docs/5.3/utilities/background/#background-color
 https://getbootstrap.com/docs/5.3/layout/grid/#example
 https://dashboard.render.com/web/srv-cvrgtlbe5dus7388soe0/settings
 
-  - https://www.youtube.com/watch?v=IPeACm7Se9w&list=PL5QK1VkAg_cOC4zQc5Yg1hHDaRfp5LkKs   
-  - python.exe -m pip install --upgrade pip
-  - pip install gunicorn
-  - pip freeze > requirements.txt 
-  - No render.com, New/Webservice
-  - pip install -r requirements.txt
-
+# https://www.youtube.com/watch?v=IPeACm7Se9w&list=PL5QK1VkAg_cOC4zQc5Yg1hHDaRfp5LkKs   
+# python.exe -m pip install --upgrade pip
+# pip install gunicorn
+# pip freeze > requirements.txt 
+# No render.com, New/Webservice
+# pip install -r requirements.txt
+# pip install flask-bcrypt # Criptografia de senhas
+# pip install flask-login # libera login no sistema
 # pip install Flask
 # pip install Flask-SqlAlchemy
 # pip install Flask-Migrate
 # pip install flask-wtf # para trabalhar com Formulários
-# pip install email_validator
+# pip install email_validator # Validaçõo de e-mail
 # Criar o banco de dados, digite no terminal: Flask db init
 
 ******************
       Roteiro
 ******************
-1- Criar uma pasta com o nome do programa 
+1- Criar uma pasta com o nome do projeto 
 2- Criar nesta pasta o arquivo __init__.py
 3- No arquivo __init__.py colocar as configurações de app e de banco de dados
    - No final do arquivo __init__.py, imortar os routes
@@ -35,3 +36,7 @@ https://dashboard.render.com/web/srv-cvrgtlbe5dus7388soe0/settings
    A única coisa que o main.py faz é rodar o seu programa
 
 Observação: a vm fica para fora da pasta, junto com o main.py
+
+# Para criar logins no sistema:
+## No models importar o LoginManager e criar a função que será o loader do login_manager
+## e atribuir este UserMixin na classe que comanda o usuário, lá no models.
