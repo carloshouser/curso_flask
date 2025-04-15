@@ -3,8 +3,8 @@ from meusite.models import Usuario, Post
 
 
 # with app.app_context():
-#    database.drop_all()
-#    database.create_all()
+#     database.drop_all()
+#     database.create_all()
 
 # with app.app_context():
 #     usuario = Usuario(username = 'Carlos', email = 'carlos.pereira@cds.com', senha='123456')
@@ -39,9 +39,6 @@ from meusite.models import Usuario, Post
 #     print(post.titulo)
 #     print(post.autor.email)
 
-with app.app_context():
-    usuario = Usuario.query.first()
-    print(usuario.senha)
-    
-    
-    
+# with app.app_context():
+#     usuario = Usuario.query.first()
+#     print(usuario.senha)
