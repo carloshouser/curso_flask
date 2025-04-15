@@ -16,7 +16,10 @@ database = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
 
-
+# Isto serve para configurar onde entrar caso o login seja exigido
+login_manager.login_view = 'login' 
+login_manager.login_message_category = 'alert-info'
+login_manager.login_message = 'Por favor, faça login para acessar esta funcionalidade.'
 
 from meusite import routes
 
