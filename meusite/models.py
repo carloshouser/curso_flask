@@ -10,7 +10,7 @@ from flask_login import UserMixin
 # Libera logins no sistema. Esta função tem o propósito de 
 # buscar um usuário  no sistema
 @login_manager.user_loader
-def load_usuario(id_usuario):
+def load_user(id_usuario):
     return Usuario.query.get(int(id_usuario))
 
 
