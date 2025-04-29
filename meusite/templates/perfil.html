@@ -30,8 +30,10 @@
                 </div>
                 <!-- Botão com largura reduzida -->
                 <div class="d-flex pt-1 justify-content-center">
-                  <button type="button" data-mdb-button-init data-mdb-ripple-init 
-                    class="btn btn-primary" style="width: 120px;">Follow</button>
+                  <a class "w-100" href = "{{url_for('editar_perfil')}}">
+                    <button type="button" data-mdb-button-init data-mdb-ripple-init 
+                      class="btn btn-primary" style="width: 120px;">Editar Perfil</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -40,4 +42,9 @@
       </div>
     </div>
   </section>
+
+{% block form_editar_perfil %}
+
+{% endblock %}
+  
 {% endblock %}
